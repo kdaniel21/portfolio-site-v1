@@ -67,7 +67,7 @@ export default {
         this.projects = res.data.projects;
         this.$Progress.finish();
       })
-      .catch(err => this.$Progress.fail());
+      .catch(() => this.$Progress.fail());
   }
 };
 </script>

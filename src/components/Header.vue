@@ -10,7 +10,7 @@
         </router-link>
         <!-- NAVIGATION BUTTONS -->
         <ul>
-          <router-link v-for="menu in menus" :to="'/' + menu.url">
+          <router-link v-for="menu in menus" :to="'/' + menu.url" :key="menu">
             <li>
               {{ menu.name }}
             </li>

@@ -18,7 +18,7 @@
         </p>
         <h2>Technologies Used</h2>
         <div class="techs">
-          <div class="tech" v-for="tech in project.technologies">
+          <div class="tech" v-for="tech in project.technologies" :key="tech">
             <img
               :src="tech.img && require(`../assets/tech-icons/${tech.img}`)"
               :alt="`${tech.name} logo`"

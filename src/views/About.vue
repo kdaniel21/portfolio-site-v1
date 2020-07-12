@@ -23,7 +23,7 @@
     <!-- TECHNOLOGIES SECTION -->
     <h2>Technologies I've worked with</h2>
     <div class="techs">
-      <div class="tech" v-for="tech in techs">
+      <div class="tech" v-for="tech in techs" :key="tech">
         <img
           :src="require(`../assets/tech-icons/${tech.img}`)"
           :alt="`${tech.name} logo`"
