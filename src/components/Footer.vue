@@ -26,8 +26,8 @@ span {
   opacity: 0.7;
 }
 img {
-  width: 20px;
-  height: 20px;
+  width: clamp(15px, 2vw, 20px);
+  height: clamp(15px, 2vw, 20px);
   vertical-align: middle;
 }
 </style>
