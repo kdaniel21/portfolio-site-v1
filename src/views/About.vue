@@ -7,18 +7,18 @@
     <p>
       Hi! My name is Daniel Kiss, an aspiring
       <span class="blue">full-stack web developer</span> with a special interest
-      in back-end development based in <span class="blue">Sopron</span>,
-      Hungary.
+      in back-end development based in <span class="blue">Sopron</span>, Hungary
+      🇭🇺.
     </p>
     <p>
       Currently I’m a high school student and I’m also teaching small children
       to code in <span class="blue">Logiscool</span> Hungary. I’ve got a strong
       interest in the world of Computer Science, planning my future in this
-      field.
+      field 👨‍💻.
     </p>
     <p>
       Aside from programming I enjoy training and competing in the sport of
-      <span class="blue">triathlon</span>.
+      <span class="blue">triathlon</span> 🏊🚴🏃.
     </p>
     <!-- TECHNOLOGIES SECTION -->
     <h2>Technologies I've worked with</h2>
@@ -35,7 +35,7 @@
     <h2>Objectives</h2>
     <p>
       My future plans include going to university somewhere in Europe and
-      learning Computer Science in either German or English. I’m eager to
+      learning Computer Science in either German or English 🎓. I’m eager to
       sharpen my skills in web development and software engineering, learn new
       technologies, participate in challenging projects and meet interesting
       people.

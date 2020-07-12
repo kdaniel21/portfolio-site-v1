@@ -1,6 +1,6 @@
 <template>
   <div id="footer">
-    <span>2020 &copy; Created by Daniel Kiss using</span>
+    <span>2020 &copy; Created by Daniel Kiss using </span>
     <img
       src="../assets/tech-icons/vue.svg"
       alt="Vue icon"
