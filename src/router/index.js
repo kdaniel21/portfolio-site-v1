@@ -10,11 +10,27 @@ import Contact from '../views/Contact';
 Vue.use(VueRouter);
 
 const routes = [
-  { path: '/', component: Main },
-  { path: '/about', component: About },
-  { path: '/projects', component: Projects },
-  { path: '/projects/:slug', component: ProjectDetails },
-  { path: '/contact', component: Contact },
+  { path: '/', component: Main, meta: { title: 'Daniel Kiss' } },
+  {
+    path: '/about',
+    component: About,
+    meta: { title: 'About Me - Daniel Kiss' }
+  },
+  {
+    path: '/projects',
+    component: Projects,
+    meta: { title: 'Projects - Daniel Kiss' }
+  },
+  {
+    path: '/projects/:slug',
+    component: ProjectDetails,
+    meta: { title: 'Projects - Daniel Kiss' }
+  },
+  {
+    path: '/contact',
+    component: Contact,
+    meta: { title: 'Contact Me - Daniel Kiss' }
+  },
   { path: '*', component: Main }
 ];
 
