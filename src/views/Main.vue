@@ -66,9 +66,9 @@
       <a href="https://github.com/kdaniel21" target="_blank"
         ><img src="../assets/github.svg" alt="GitHub Logo" class="logo"
       /></a>
-      <a href="#" target="_blank"
+      <!-- <a href="#" target="_blank"
         ><img src="../assets/linkedin.svg" alt="LinkedIn Logo" class="logo"
-      /></a>
+      /></a> -->
       <a href="mailto:kissd621@gmail.com" target="_blank"
         ><img src="../assets/mail.svg" alt="Email Logo" class="logo"
       /></a>
