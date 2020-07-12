@@ -90,7 +90,7 @@ export default {
   border-radius: 15px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   width: min(25rem, 90vw);
-  height: min(30rem, 60vh);
+  height: clamp(22rem, 60vh, 30rem);
   transition: transform 0.2s ease-in;
 }
 .project-card:hover {
@@ -104,7 +104,7 @@ export default {
 h3.card-title {
   text-align: center;
   text-transform: capitalize;
-  font-size: clamp(20px, 8vw, 35px);
+  font-size: clamp(20px, 6vw, 35px);
   font-family: Arvo;
   margin-top: 10px;
 }
