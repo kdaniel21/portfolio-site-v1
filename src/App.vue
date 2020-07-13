@@ -73,7 +73,6 @@ p {
   padding: 0.7rem 1.3rem;
   color: #fff;
   font-family: Kanit;
-  /* font-size: 20px; */
   font-size: clamp(18px, 2.2vw, 20px);
   text-transform: capitalize;
   text-align: center;
@@ -119,7 +118,7 @@ p {
 /* TECHNOLOGIES LIST WITH ICONS */
 .techs {
   display: flex;
-  width: min(1000px, 90vw);
+  width: min(1000px, 95%);
   flex-wrap: wrap;
   margin-left: 1.3rem;
 }

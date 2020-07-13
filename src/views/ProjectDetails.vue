@@ -109,11 +109,15 @@ h2 {
 @media only screen and (max-width: 800px) {
   .actions {
     flex-direction: column;
-    justify-content: flex-end;
   }
   .buttons {
     margin-top: 0.8rem;
-    margin-left: auto;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  .btn {
+    font-size: 18px;
+    margin-right: 0.5rem;
   }
 }
 </style>
