@@ -23,6 +23,9 @@ export default {
     $route(to) {
       document.title = to.meta.title || 'Daniel Kiss';
     }
+  },
+  mounted() {
+    document.title = 'Daniel Kiss';
   }
 };
 </script>
