@@ -22,16 +22,7 @@
     </p>
     <!-- TECHNOLOGIES SECTION -->
     <h2>Technologies I've worked with</h2>
-    <div class="techs">
-      <div class="tech" v-for="tech in techs" :key="tech">
-        <img
-          :src="require(`../assets/tech-icons/${tech.img}`)"
-          :alt="`${tech.name} logo`"
-          :title="tech.name"
-          class="tech-icon"
-        />
-      </div>
-    </div>
+    <techs :techs="techs"></techs>
     <h2>Objectives</h2>
     <p>
       My future plans include going to university somewhere in Europe and
@@ -55,8 +46,13 @@
   </div>
 </template>
 <script>
+import Techs from '../components/Techs';
+
 export default {
   name: 'About',
+  components: {
+    Techs
+  },
   data() {
     return {
       techs: [

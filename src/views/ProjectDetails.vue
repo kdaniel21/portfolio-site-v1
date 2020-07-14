@@ -17,16 +17,7 @@
           {{ project.description }}
         </p>
         <h2>Technologies Used</h2>
-        <div class="techs">
-          <div class="tech" v-for="tech in project.technologies" :key="tech">
-            <img
-              :src="tech.img && require(`../assets/tech-icons/${tech.img}`)"
-              :alt="`${tech.name} logo`"
-              :title="tech.name"
-              class="tech-icon"
-            />
-          </div>
-        </div>
+        <techs :techs="project.technologies"></techs>
         <div class="actions">
           <div class="date">Created: {{ project.created }}</div>
           <div class="buttons">
@@ -45,9 +36,11 @@
 
 <script>
 import axios from 'axios';
+import Techs from '../components/Techs';
 
 export default {
   name: 'ProjectDetails',
+  components: { Techs },
   data() {
     return {
       project: {}
