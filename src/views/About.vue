@@ -11,10 +11,9 @@
       🇭🇺.
     </p>
     <p>
-      Currently I’m a high school student and I’m also teaching small children
-      to code in <span class="blue">Logiscool</span> Hungary. I’ve got a strong
-      interest in the world of Computer Science, planning my future in this
-      field 👨‍💻.
+      Currently I’m a high school student and I’m also teaching children to code
+      in <span class="blue">Logiscool</span> Hungary. I’ve got a strong interest
+      in the world of Computer Science, planning my future in this field 👨‍💻.
     </p>
     <p>
       Aside from programming I enjoy training and competing in the sport of
