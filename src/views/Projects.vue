@@ -90,14 +90,17 @@ export default {
   border-radius: 15px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   width: min(25rem, 90vw);
-  height: clamp(22rem, 60vh, 30rem);
+  /* support browsers not supporting clamp() */
+  height: 60vh;
+  height: clamp(22rem, 60vh, 30rem) !important;
   transition: transform 0.2s ease-in;
 }
 .project-card:hover {
   transform: scale(1.05);
 }
 .card-img {
-  width: min(25rem, 90vw);
+  max-width: 90vw;
+  width: min(25rem, 90vw) !important;
   height: min(12rem, 20vh);
   border-radius: 15px;
 }

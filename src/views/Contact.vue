@@ -108,11 +108,13 @@ export default {
   padding-right: 1rem;
 }
 .contact-form {
-  width: min(40rem, 100%);
+  width: 100%;
+  width: min(40rem, 100%) !important;
   margin: auto;
   border-radius: 15px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  padding: min(2rem, 4%) min(5rem, 4%);
+  padding: 4%;
+  padding: min(2rem, 4%) !important;
   font-family: Arvo;
 }
 .form-group {
@@ -131,6 +133,7 @@ textarea {
   margin-bottom: 10px;
 }
 input {
+  width: 80%;
   width: min(20rem, 80%);
 }
 input:focus,

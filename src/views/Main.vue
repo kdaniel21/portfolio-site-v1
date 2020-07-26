@@ -83,9 +83,6 @@ export default {
   name: 'Main',
   components: {
     VueTyper
-  },
-  data() {
-    return {};
   }
 };
 </script>
@@ -102,11 +99,13 @@ export default {
   font-family: Montserrat;
 }
 .firstname {
+  font-size: 18.5vw;
   font-size: min(18.5vw, 160px);
   line-height: min(18.5vw, 160px);
 }
 .lastname {
   display: inline-block;
+  font-size: 6.7vw;
   font-size: min(6.7vw, 60px);
   line-height: min(6.7vw, 60px);
   transform: translate(-30%, -60%) rotate(90deg);
@@ -114,23 +113,28 @@ export default {
 
 .bottom-text {
   font-family: Arvo;
-  font-size: min(5.5vw, 60px);
+  font-size: 5.5vw;
+  font-size: min(5.5vw, 60px) !important;
   line-height: min(5.5vw, 60px);
 }
 .btn {
   margin-top: 3rem;
-  font-size: min(8vw, 30px);
+  font-size: 8vw;
+  font-size: min(8vw, 30px) !important;
   padding: 5px;
-  width: min(80vw, 17rem);
+  width: 80vw;
+  width: min(80vw, 17rem) !important;
 }
 .icons {
   margin-top: 3rem;
 }
 .logo {
-  width: clamp(40px, 17vw, 80px);
+  width: 17vw;
+  width: clamp(40px, 17vw, 80px) !important;
   height: clamp(40px, 17vw, 80px);
   opacity: 0.6;
-  margin-right: clamp(0.5rem, 2.5rem, 4rem);
+  margin-right: 2.5rem;
+  margin-right: clamp(0.5rem, 2.5rem, 4rem) !important;
   cursor: pointer;
 }
 .icons:last-child {
