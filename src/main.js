@@ -6,7 +6,7 @@ import VueGtag from 'vue-gtag';
 
 Vue.config.productionTip = false;
 
-Vue.use(VueGtag, { id: 'UA-159367806-1' }, router);
+Vue.use(VueGtag, { config: { id: 'UA-159367806-1' } }, router);
 
 Vue.use(VueProgressBar, {
   color: '#24b9ff',
