@@ -1,10 +1,12 @@
 <template>
   <div id="app">
-    <Header />
-    <transition name="component-fade" mode="out-in">
-      <router-view />
-    </transition>
-    <vue-progress-bar></vue-progress-bar>
+    <div style="height: calc(100vh - 195px)">
+      <Header />
+      <transition name="component-fade" mode="out-in">
+        <router-view />
+      </transition>
+      <vue-progress-bar></vue-progress-bar>
+    </div>
     <Footer />
   </div>
 </template>

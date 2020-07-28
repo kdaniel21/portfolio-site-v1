@@ -17,7 +17,6 @@ export default {
 </script>
 <style scoped>
 #footer {
-  margin-top: clamp(0.5rem, 1.2vw, 1.5rem);
   font-family: Montserrat;
   font-size: clamp(15px, 2vw, 20px);
   text-align: right;
