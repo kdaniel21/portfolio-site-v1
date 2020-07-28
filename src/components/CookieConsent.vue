@@ -2,7 +2,7 @@
   <div id="cookie-consent" v-show="show">
     <p>
       Hey! I just wanted to say that the site uses some cookies. But no reason
-      for panic, because we all love 🍪, right?
+      to panic, because we all love 🍪, right?
     </p>
     <span><button class="btn-outline" @click="accept">Sure</button></span>
   </div>

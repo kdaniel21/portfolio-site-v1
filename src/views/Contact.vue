@@ -19,8 +19,8 @@
           Your message was <span class="blue">successfully</span> sent!
         </p>
         <p v-if="showSuccess">
-          Thanks for contating me! I'll reach out to you as soon as possible and
-          I hope we'll do something big <span class="blue">together</span>!
+          Thanks for contacting me! I'll reach out to you as soon as possible
+          and I hope we'll do something big <span class="blue">together</span>!
         </p>
         <p v-if="showError">
           Hey! Unfortunately something went wrong... Could you please try again
