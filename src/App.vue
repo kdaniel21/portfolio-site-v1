@@ -1,12 +1,13 @@
 <template>
   <div id="app">
-    <div style="height: calc(100vh - 195px)">
+    <div style="min-height: calc(100vh - 195px - 10px)">
       <Header />
       <transition name="component-fade" mode="out-in">
         <router-view />
       </transition>
       <vue-progress-bar></vue-progress-bar>
     </div>
+    <cookie-consent />
     <Footer />
   </div>
 </template>
@@ -14,12 +15,14 @@
 <script>
 import Header from './components/Header';
 import Footer from './components/Footer';
+import CookieConsent from './components/CookieConsent';
 
 export default {
   name: 'App',
   components: {
     Header,
-    Footer
+    Footer,
+    CookieConsent
   },
   watch: {
     $route(to) {
