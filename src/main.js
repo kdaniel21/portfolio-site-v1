@@ -2,8 +2,11 @@ import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
 import VueProgressBar from 'vue-progressbar';
+import VueAnalytics from 'vue-analytics';
 
 Vue.config.productionTip = false;
+
+Vue.use(VueAnalytics, { id: 'UA-159367806-1', router });
 
 Vue.use(VueProgressBar, {
   color: '#24b9ff',
