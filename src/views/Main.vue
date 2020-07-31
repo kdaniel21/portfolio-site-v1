@@ -64,13 +64,19 @@
     </div>
     <div class="icons">
       <a href="https://github.com/kdaniel21" target="_blank"
-        ><img src="../assets/github.svg" alt="GitHub Logo" class="logo"
+        ><img
+          src="https://res.cloudinary.com/kdaniel/image/upload/v1596171231/portfolio-site/other-icons/github_xl9ark.svg"
+          alt="GitHub Logo"
+          class="logo"
       /></a>
       <!-- <a href="#" target="_blank"
-        ><img src="../assets/linkedin.svg" alt="LinkedIn Logo" class="logo"
+        ><img src="https://res.cloudinary.com/kdaniel/image/upload/v1596171231/portfolio-site/other-icons/linkedin_gjwvxg.svg" alt="LinkedIn Logo" class="logo"
       /></a> -->
       <a href="mailto:kissd621@gmail.com" target="_blank"
-        ><img src="../assets/mail.svg" alt="Email Logo" class="logo"
+        ><img
+          src="https://res.cloudinary.com/kdaniel/image/upload/v1596171231/portfolio-site/other-icons/mail_vx7ebc.svg"
+          alt="Email Logo"
+          class="logo"
       /></a>
     </div>
   </div>

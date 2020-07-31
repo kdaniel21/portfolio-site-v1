@@ -9,10 +9,7 @@
       >
         <div class="project-card">
           <img
-            :src="
-              project.coverImg &&
-                require(`../assets/projects/${project.coverImg}`)
-            "
+            :src="project.coverImg"
             class="card-img"
             alt="Project image"
             title="Project screenshot"
@@ -23,7 +20,7 @@
             <div class="icons">
               <a v-if="project.repoUrl" :href="project.repoUrl" target="_blank">
                 <img
-                  src="../assets/github.svg"
+                  src="https://res.cloudinary.com/kdaniel/image/upload/v1596171231/portfolio-site/other-icons/github_xl9ark.svg"
                   title="GitHub Repository"
                   alt="GitHub Logo"
                   class="icon"
@@ -31,7 +28,7 @@
               </a>
               <a v-if="project.demoUrl" :href="project.demoUrl" target="_blank">
                 <img
-                  src="../assets/webpage.svg"
+                  src="https://res.cloudinary.com/kdaniel/image/upload/v1596171231/portfolio-site/other-icons/webpage_elgxqa.svg"
                   title="Demo"
                   alt="Webpage Logo"
                   class="icon"

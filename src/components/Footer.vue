@@ -2,7 +2,7 @@
   <div id="footer">
     <span>2020 &copy; Created by Daniel Kiss using </span>
     <img
-      src="../assets/tech-icons/vue.svg"
+      src="https://res.cloudinary.com/kdaniel/image/upload/v1596170003/portfolio-site/tech-icons/vue_ovr6z9.svg"
       alt="Vue icon"
       title="Vue.js"
       class="vue-icon"

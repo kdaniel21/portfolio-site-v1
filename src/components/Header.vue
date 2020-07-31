@@ -10,7 +10,11 @@
         </router-link>
         <!-- NAVIGATION BUTTONS -->
         <ul>
-          <router-link v-for="menu in menus" :to="'/' + menu.url" :key="menu">
+          <router-link
+            v-for="menu in menus"
+            :to="'/' + menu.url"
+            :key="menu.name"
+          >
             <li>
               {{ menu.name }}
             </li>
@@ -18,7 +22,7 @@
           <!-- RESUME DOWNLOAD ICON AND BUTTON IN MOBILE VIEW -->
           <!-- <router-link to="/resume">
             <img
-              src="../assets/resume.svg"
+              src="https://res.cloudinary.com/kdaniel/image/upload/v1596171231/portfolio-site/other-icons/resume_ypkhne.svg"
               alt="Resume icon"
               title="Download Resume"
               class="resume-icon"

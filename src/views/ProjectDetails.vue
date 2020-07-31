@@ -7,7 +7,7 @@
     >
       <div class="project" v-if="project">
         <img
-          :src="project.img && require(`../assets/projects/${project.img}`)"
+          :src="project.img"
           alt="Project image"
           :title="project.name"
           class="project-image"

@@ -28,7 +28,7 @@
         </p>
         <a href="mailto:kissd621@gmail.com" v-if="showError">
           <img
-            src="../assets/mail.svg"
+            src="https://res.cloudinary.com/kdaniel/image/upload/v1596171231/portfolio-site/other-icons/mail_vx7ebc.svg"
             title="Send me an email!"
             alt="Email icon"
             class="email-icon"
