@@ -24,11 +24,10 @@
     <techs :techs="techs"></techs>
     <h2>Objectives</h2>
     <p>
-      My future plans include going to university somewhere in Europe and
-      learning Computer Science in either German or English 🎓. I’m eager to
-      sharpen my skills in web development and software engineering, learn new
-      technologies, participate in challenging projects and meet interesting
-      people.
+      My future plans include studying studying Computer Science somewhere in
+      Europe in either German or English 🎓. I’m eager to sharpen my skills in
+      web development and software engineering, learn new technologies,
+      participate in challenging projects and meet interesting people.
     </p>
     <div class="action">
       <router-link to="projects">
