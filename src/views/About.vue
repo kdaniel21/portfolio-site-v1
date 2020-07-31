@@ -56,43 +56,53 @@ export default {
       techs: [
         {
           name: 'JavaScript',
-          img: 'javascript.svg'
+          img:
+            'https://res.cloudinary.com/kdaniel/image/upload/v1596170003/portfolio-site/tech-icons/javascript_oo047w.svg'
         },
         {
           name: 'Angular',
-          img: 'angular.svg'
+          img:
+            'https://res.cloudinary.com/kdaniel/image/upload/v1596170008/portfolio-site/tech-icons/angular_ut7ry9.svg'
         },
         {
           name: 'Vue',
-          img: 'vue.svg'
+          img:
+            'https://res.cloudinary.com/kdaniel/image/upload/v1596170003/portfolio-site/tech-icons/vue_ovr6z9.svg'
         },
         {
           name: 'Java',
-          img: 'java.svg'
+          img:
+            'https://res.cloudinary.com/kdaniel/image/upload/v1596170003/portfolio-site/tech-icons/java_azbwoq.svg'
         },
         {
           name: 'Node.js',
-          img: 'nodejs.svg'
+          img:
+            'https://res.cloudinary.com/kdaniel/image/upload/v1596170002/portfolio-site/tech-icons/nodejs_dolm0a.svg'
         },
         {
           name: 'Express',
-          img: 'expressjs.svg'
+          img:
+            'https://res.cloudinary.com/kdaniel/image/upload/v1596170006/portfolio-site/tech-icons/expressjs_nb3e9d.svg'
         },
         {
           name: 'Git',
-          img: 'git.svg'
+          img:
+            'https://res.cloudinary.com/kdaniel/image/upload/v1596170005/portfolio-site/tech-icons/git_i4eslw.svg'
         },
         {
           name: 'Firebase',
-          img: 'firebase.svg'
+          img:
+            'https://res.cloudinary.com/kdaniel/image/upload/v1596170006/portfolio-site/tech-icons/firebase_hw3khm.svg'
         },
         {
           name: 'MongoDB',
-          img: 'mongodb.svg'
+          img:
+            'https://res.cloudinary.com/kdaniel/image/upload/v1596170003/portfolio-site/tech-icons/mongodb_jm7jrz.svg'
         },
         {
           name: 'CSS',
-          img: 'css.svg'
+          img:
+            'https://res.cloudinary.com/kdaniel/image/upload/v1596170007/portfolio-site/tech-icons/css_gw5jlc.svg'
         }
       ]
     };
