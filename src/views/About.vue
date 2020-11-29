@@ -11,13 +11,10 @@
       🇭🇺.
     </p>
     <p>
-      Currently I’m a high school student and I’m also teaching children to code
-      in <span class="blue">Logiscool</span> Hungary. I’ve got a strong interest
-      in the world of Computer Science, planning my future in this field 👨‍💻.
-    </p>
-    <p>
-      Aside from programming I enjoy training and competing in the sport of
-      <span class="blue">triathlon</span> 🏊🚴🏃.
+      Aside from web development I’m currently a high school student and I’m
+      also teaching children to code in
+      <span class="blue">Logiscool</span> Hungary. I’ve got a strong interest in
+      the world of Computer Science, planning my future in this field 👨‍💻.
     </p>
     <!-- TECHNOLOGIES SECTION -->
     <h2>Technologies I've worked with</h2>
@@ -26,8 +23,8 @@
     <p>
       My future plans include studying studying Computer Science somewhere in
       Europe in either German or English 🎓. I’m eager to sharpen my skills in
-      web development and software engineering, learn new technologies,
-      participate in challenging projects and meet interesting people.
+      web development and software engineering, meet interesting people, learn
+      new technologies and participate in challenging projects.
     </p>
     <div class="action">
       <router-link to="projects">
