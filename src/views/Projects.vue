@@ -88,8 +88,8 @@ export default {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   width: min(25rem, 90vw);
   /* support browsers not supporting clamp() */
-  height: 60vh;
-  height: clamp(22rem, 60vh, 30rem) !important;
+  height: 70vh;
+  height: clamp(24rem, 70vh, 30rem) !important;
   transition: transform 0.2s ease-in;
 }
 .project-card:hover {
